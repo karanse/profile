@@ -28,15 +28,36 @@ font-family: 'Raleway', sans-serif;*/
 
 
 body {
-  background-color: #FFD9B7;
+  background-color: #ebebeb;
   font-family: 'Gowun Batang', serif;
 }
 
 .container {
   width: 80%;
   margin: 30px auto;
-
 }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Nanum Myeongjo', serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .card-white {
   text-align: center;
   background-color: white;
@@ -64,11 +85,14 @@ body {
 .sub-titles {
   font-size: 17px;
   margin-top: 0;
+  color: #e4d096;
+  font-weight: bold;
 }
 
 .text-green {
-  color: #7EAA92
+  color: #a4a4b4
 }
+
 #img-circle {
   width: 200px;
   height: 200px;
@@ -80,8 +104,8 @@ li {
   list-style: none;
   margin-top: 10px;
   opacity: 0.9;
-  background-color: rgb(228, 217, 217, 0.4);
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  background-color: rgb(177,194,204, 0.4);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   border-radius: 10px;
   padding: 10px;
 }
@@ -90,18 +114,46 @@ li {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 li:hover {
   opacity: 1;
   background-color: rgb(228, 217, 217, 0.9);
+
+}
+
+li.button {
+  background-color: white;
+  box-shadow: none;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  background-color: rgb(228,208,150, 1);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+}
+
+#resume:hover {
+  background-color: rgb(228,208,150, 0.6);
 }
 
 .title-background {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7EAA92;
+  background-color: #7f899b;
   opacity: 0.8;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   padding: 20px 40px;
@@ -110,44 +162,10 @@ li:hover {
 }
 
 
-
-h2 {
-  font-size: 30px;
-  font-weight: 200;
-  font-family: 'Nanum Myeongjo', serif;
-  color: white;
-}
-
-h3 {
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-}
-
-
-
 #text-align {
   margin-bottom: 30px;
 }
 
-#btn-green {
-  background-color: #c1e7d8;
-
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-}
-
-#btn-green:hover {
-  background-color: #9ED2BE;
-}
 
 
 .icon-green {
