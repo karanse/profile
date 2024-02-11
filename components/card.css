@@ -1,0 +1,39 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 15px;
+  margin: 5px 5px 5px 10px;
+}
+
+
+.card {
+  text-align: center;
+  list-style: none;
+  opacity: 0.9;
+  background-color: rgb(177,194,204, 0.4);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card:hover {
+  opacity: 1;
+  background-color: rgb(228, 217, 217, 0.9);
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}

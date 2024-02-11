@@ -1,10 +1,13 @@
-/* color palette link ->  https://colorhunt.co/palette/c8e4b29ed2be7eaa92ffd9b7
-*/
+/* Importing components */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/icon.css");
+@import url("components/card.css");
+@import url("components/footer.css");
 
-/*
-font-family: 'Gowun Batang', serif;
-font-family: 'Nanum Myeongjo', serif;
-font-family: 'Raleway', sans-serif;*/
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -26,7 +29,6 @@ font-family: 'Raleway', sans-serif;*/
   }
 }
 
-
 body {
   background-color: #ebebeb;
   font-family: 'Gowun Batang', serif;
@@ -41,6 +43,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: bold;
+  color: #a4a4b4
 }
 
 h2 {
@@ -58,118 +61,7 @@ a {
   text-decoration: none;
 }
 
-.card-white {
-  text-align: center;
-  background-color: white;
-  padding: 20px 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  margin: 20px;
-  display: flex;
-  justify-content: space-evenly;
-}
+.text-italic-small {
+  font-size: 12px;
 
-#introduction {
-  background-color: rgba(255, 255, 255, 0.902);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-
-.titles {
-  display: flex;
-  flex-direction: column;
-}
-
-.sub-titles {
-  font-size: 17px;
-  margin-top: 0;
-  color: #e4d096;
-  font-weight: bold;
-}
-
-.text-green {
-  color: #a4a4b4
-}
-
-#img-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-li {
-  text-align: left;
-  list-style: none;
-  margin-top: 10px;
-  opacity: 0.9;
-  background-color: rgb(177,194,204, 0.4);
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  padding: 10px;
-}
-
-#tech-stack {
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-li:hover {
-  opacity: 1;
-  background-color: rgb(228, 217, 217, 0.9);
-
-}
-
-li.button {
-  background-color: white;
-  box-shadow: none;
-  text-align: center;
-  margin: 30px 0 30px 0;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-#resume {
-  background-color: rgb(228,208,150, 1);
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  font-size: 20px;
-  padding: 10px;
-  width: 150px;
-  height: 30px;
-  text-align: center;
-}
-
-#resume:hover {
-  background-color: rgb(228,208,150, 0.6);
-}
-
-.title-background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #7f899b;
-  opacity: 0.8;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  padding: 20px 40px;
-  border-radius: 10px;
-  margin: 5px;
-}
-
-
-#text-align {
-  margin-bottom: 30px;
-}
-
-
-
-.icon-green {
-  color: #7EAA92;
-  font-size: xx-large;
-  text-align: center;
 }
