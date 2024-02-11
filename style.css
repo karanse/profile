@@ -29,20 +29,14 @@ font-family: 'Raleway', sans-serif;*/
 
 body {
   background-color: #FFD9B7;
-  font-family: 'Gowun Batang', serif;;
+  font-family: 'Gowun Batang', serif;
 }
 
 .container {
-  width: 60%;
+  width: 80%;
   margin: 30px auto;
 
 }
-
-#introduction {
-  background-color: rgba(255, 255, 255, 0.902);
-
-}
-
 .card-white {
   text-align: center;
   background-color: white;
@@ -50,20 +44,82 @@ body {
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 10px;
   margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+#introduction {
+  background-color: rgba(255, 255, 255, 0.902);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
-.text-bold {
-  font-size: 20px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-titles {
+  font-size: 17px;
+  margin-top: 0;
 }
 
 .text-green {
   color: #7EAA92
 }
 #img-circle {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  margin-top: 10px;
+  opacity: 0.9;
+  background-color: rgb(228, 217, 217, 0.4);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#tech-stack {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+li:hover {
+  opacity: 1;
+  background-color: rgb(228, 217, 217, 0.9);
+}
+
+.title-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7EAA92;
+  opacity: 0.8;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Nanum Myeongjo', serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 a {
@@ -75,37 +131,24 @@ h1 {
   font-size: 40px;
 }
 
-h2 {
-  font-size: 30px;
-  font-weight: 200;
-  font-family: 'Nanum Myeongjo', serif;
-}
 
-h3 {
-  font-family: 'Nanum Myeongjo', serif;
-}
+
 #text-align {
   margin-bottom: 30px;
 }
+
 #btn-green {
-  background-color: #9ED2BE;
+  background-color: #c1e7d8;
+
   padding: 10px;
   border-radius: 10px;
   color: white;
 }
 
 #btn-green:hover {
-  background-color: #c1e7d8;
-
+  background-color: #9ED2BE;
 }
 
-ul li {
-  display: inline-block;
-}
-#list-inline {
-  text-align: center;
-  list-style: none;
-}
 
 .icon-green {
   color: #7EAA92;
